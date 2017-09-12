@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imageView_dashboard_item"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"/>
+
+        <TextView
+            android:id="@+id/textView_dashboard_item_title"
+            android:layout_below="@+id/imageView_dashboard_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dashboard_item_title_text_size"
+            android:text="Top western road trips"/>
+
+        <TextView
+            android:layout_below="@+id/textView_dashboard_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description.."/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</android.support.v7.widget.CardView>

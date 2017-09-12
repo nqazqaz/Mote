@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="space_10dp">10dp</dimen>
+    <dimen name="dashboard_header_text_size">20sp</dimen>
+    <dimen name="dashboard_item_title_text_size">30sp</dimen>
+
+    <!-- Common -->
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+
+    <dimen name="bottom_navigation_icon">24dp</dimen>
+
+    <dimen name="bottom_navigation_height">56dp</dimen>
+
+    <dimen name="bottom_navigation_padding_bottom">7dp</dimen>
+    <dimen name="bottom_navigation_padding_left">12dp</dimen>
+    <dimen name="bottom_navigation_padding_right">12dp</dimen>
+
+    <dimen name="bottom_navigation_text_size_active">14sp</dimen>
+    <dimen name="bottom_navigation_text_size_inactive">12sp</dimen>
+
+    <!-- fixed item -->
+    <dimen name="bottom_navigation_min_width_fixed">104dp</dimen>
+    <dimen name="bottom_navigation_max_width_fixed">168dp</dimen>
+
+    <dimen name="bottom_navigation_padding_top_fixed_active">6dp</dimen>
+    <dimen name="bottom_navigation_padding_top_fixed_inactive">8dp</dimen>
+
+    <!-- shifting item -->
+    <dimen name="bottom_navigation_min_width_shifting_active">96dp</dimen>
+    <dimen name="bottom_navigation_max_width_shifting_active">168dp</dimen>
+    <dimen name="bottom_navigation_min_width_shifting_inactive">64dp</dimen>
+    <dimen name="bottom_navigation_max_width_shifting_inactive">96dp</dimen>
+
+    <dimen name="bottom_navigation_padding_top_shifting_active">6dp</dimen>
+    <dimen name="bottom_navigation_padding_top_shifting_inactive">16dp</dimen>
+
+</resources>
